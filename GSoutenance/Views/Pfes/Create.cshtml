@@ -1,0 +1,56 @@
+﻿@model GSoutenance.Models.Pfe
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Pfe</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="titre" class="control-label"></label>
+                <input asp-for="titre" class="form-control" />
+                <span asp-validation-for="titre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="desc" class="control-label"></label>
+                <input asp-for="desc" class="form-control" />
+                <span asp-validation-for="desc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dated" class="control-label"></label>
+                <input asp-for="Dated" class="form-control" />
+                <span asp-validation-for="Dated" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateF" class="control-label"></label>
+                <input asp-for="DateF" class="form-control" />
+                <span asp-validation-for="DateF" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EncadrantID" class="control-label"></label>
+                <select asp-for="EncadrantID" class ="form-control" asp-items="ViewBag.EncadrantID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="SocieteID" class="control-label"></label>
+                <select asp-for="SocieteID" class ="form-control" asp-items="ViewBag.SocieteID"></select>
+            </div>
+            <div class="form-group" style="margin-top: 20px;">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div style="margin-top: 20px;">
+    <a asp-action="Index" class="btn btn-outline-info" >Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,30 @@
+﻿@model GSoutenance.Models.Pfe_Etudiant
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Pfe_Etudiant</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Etudiant)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Etudiant.Nom)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pfe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pfe.desc)
+        </dd>
+    </dl>
+</div>
+<div style="margin-top: 20px;">
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-warning">Edit</a> |
+    <a asp-action="Index" class="btn btn-outline-info">Back to List</a>
+</div>

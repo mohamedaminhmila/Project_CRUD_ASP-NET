@@ -1,0 +1,58 @@
+﻿@model IEnumerable<GSoutenance.Models.Societe>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 style="margin-bottom: 20px;">Table Des Societe</h1>
+
+<form asp-controller="Societes" asp-action="Search" method="get" class="d-flex search-from">
+    <input class="form-control" type="text" placeholder="Search" name="searchString">
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+<p style="margin-top: 20px;">
+    <a asp-action="Create" class="btn btn-outline-secondary">Ajouter NV</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SocieteID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LibSociete)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Adresse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tel)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.SocieteID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LibSociete)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adresse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tel)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.SocieteID" class="btn btn-info">Modifier</a> |
+                    <a asp-action="Details" asp-route-id="@item.SocieteID" class="btn btn-warning">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.SocieteID" class="btn btn-danger">Supprimer</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

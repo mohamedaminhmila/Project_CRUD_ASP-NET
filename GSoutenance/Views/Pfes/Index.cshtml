@@ -1,0 +1,75 @@
+﻿@model IEnumerable<GSoutenance.Models.Pfe>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 style="margin-bottom: 20px;">Table Des Pfes</h1>
+<form asp-controller="Pfes" asp-action="Search" method="get" class="d-flex search-from">
+    <input class="form-control" type="text" placeholder="Search" name="searchString">
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+<p style="margin-top: 20px;">
+    <a asp-action="Create" class="btn btn-outline-secondary">Ajouter NV</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PFEID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.titre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.desc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dated)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateF)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Encadrant)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Societe)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.PFEID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.titre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.desc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Encadrant.Nom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Societe.LibSociete)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.PFEID" class="btn btn-info">Modifier</a> |
+                    <a asp-action="Details" asp-route-id="@item.PFEID" class="btn btn-warning">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.PFEID" class="btn btn-danger">Supprimer</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

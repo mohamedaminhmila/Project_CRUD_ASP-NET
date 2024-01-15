@@ -1,0 +1,51 @@
+﻿@model IEnumerable<GSoutenance.Models.Ensignant>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 style="margin-bottom: 20px;">Table d'Ensignant</h1>
+<form asp-controller="Ensignants" asp-action="Search" method="get" class="d-flex search-from">
+    <input class="form-control" type="text" placeholder="Search" name="searchString">
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+<p style="margin-top: 20px;">
+    <a asp-action="Create" class="btn btn-outline-secondary">Ajouter NV</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EncadreurID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prenom)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.EncadreurID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prenom)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.EncadreurID" class="btn btn-info">Modifier</a> |
+                    <a asp-action="Details" asp-route-id="@item.EncadreurID" class="btn btn-warning">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.EncadreurID" class="btn btn-danger">Supprimer</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

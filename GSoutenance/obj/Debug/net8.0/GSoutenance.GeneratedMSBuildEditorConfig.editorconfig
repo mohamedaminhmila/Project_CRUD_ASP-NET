@@ -1,0 +1,155 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GSoutenance
+build_property.RootNamespace = GSoutenance
+build_property.ProjectDir = C:\Users\admin\asp.net\ProjetCrud\GSoutenance\GSoutenance\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\admin\asp.net\ProjetCrud\GSoutenance\GSoutenance
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Ensignants/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5zaWduYW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Ensignants/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5zaWduYW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Ensignants/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5zaWduYW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Ensignants/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5zaWduYW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Ensignants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5zaWduYW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Etudiants/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Etudiants/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Etudiants/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Etudiants/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Etudiants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Pfes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGZlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Pfes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGZlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Pfes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGZlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Pfes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGZlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Pfes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGZlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Pfe_Etudiant/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGZlX0V0dWRpYW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Pfe_Etudiant/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGZlX0V0dWRpYW50XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Pfe_Etudiant/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGZlX0V0dWRpYW50XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Pfe_Etudiant/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGZlX0V0dWRpYW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Pfe_Etudiant/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGZlX0V0dWRpYW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Societes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWV0ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Societes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWV0ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Societes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWV0ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Societes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWV0ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Societes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWV0ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/asp.net/ProjetCrud/GSoutenance/GSoutenance/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0hq7v30mgh
